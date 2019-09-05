@@ -14,4 +14,6 @@ function findTheSmallestValue($arr) {
     return $index;
 }
 
-echo findTheSmallestValue($arr);
+var_dump($arr);
+echo "</br>";
+echo "The smallest number in the position : " . findTheSmallestValue($arr);
